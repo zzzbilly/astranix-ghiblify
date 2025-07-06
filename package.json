@@ -1,0 +1,19 @@
+{
+  "name": "Astranix Ghiblify",
+  "version": "1.5",
+  "description": "A Discord bot that generates images from prompts.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.8.0",
+    "axios": "^1.10.0",
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "genai": "^0.0.18",
+    "mongoose": "^8.16.1"
+  }
+}
